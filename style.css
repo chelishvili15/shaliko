@@ -1,0 +1,144 @@
+table, th, td{
+  border: 1px solid black;
+  font-size: 13px;
+  text-align: center;
+}
+.backc{
+        font-weight: bold;
+        background-color:#C1F0D2; 
+        color:black;
+        text-decoration: none;
+}
+
+.backc:hover{
+        border-radius: 15%;
+        background-color:#DDDDDD;
+}
+
+body{     
+  background-color: #151515;
+  overflow: visible;
+}
+
+table{
+  box-shadow: 10px 10px 20px #000000, 10px 10px 20px black;      
+  width: 100%; 
+ /* border-collapse:collapse;*/ 
+  height: 100%;
+  background-color:rgb(255, 255, 255);
+  z-index: 2;
+}
+
+#mtavari {
+   /*background-image: url(mid.jpg);     */
+   font-size: 13px;
+   padding: 0px 0px 0px 0px;
+   width: 300px;
+   height:400px ;
+   text-align: justify;
+   line-height: 20px;
+   background-color: #DDDDDD;
+}
+
+a:link{
+        color: black;
+        text-decoration: none;
+}
+
+a:visited{
+        color: black;
+}
+
+#SaTauri {
+
+  width: 11%;
+  height:30px ;
+}
+
+#misalmeba{
+        font-size: 25px;
+        font-weight: 200px;
+        line-height: 40px;
+}
+
+.div1{
+        padding: 0px 20px 20px 20px;
+        height: 300px;
+        overflow: auto;
+}
+
+.div2{
+        width: max-content;
+        margin-left: auto;
+        margin-right:auto 
+}
+
+#I, #II, #III, #IV, #V, #VI, #VII, #VIII, #IX{
+        background-color: #DDDDDD;
+} 
+ 
+.table1{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%; 
+}
+
+.table2{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto; 
+}
+
+#zeda{
+        color: #DDDDDD;
+}
+
+#r1:checked ~ .resize{
+        font-size: 12px;
+}
+#r2:checked ~ .resize{
+        font-size: 14px;
+}
+#r3:checked ~ .resize{
+        font-size: 16px;
+        line-height: 25px;
+}
+
+#r4:checked ~ .resize{
+        font-size: 18px;
+        line-height: 30px;
+}
+
+.bar{
+        background-color: white;
+        width: 20px;
+}
+
+.barmenu{
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+input{
+        visibility: hidden;
+        position: absolute;
+}
+
+@media only screen and (max-width: 768px){
+        
+        .table1{
+                margin-left: 0%;
+                width: 100%;
+        }
+        iframe{
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+        }
+        .table2{
+                margin-left: 0%;
+                width: 100%;
+        }
+       
+}
+
